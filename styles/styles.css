@@ -1,0 +1,73 @@
+.content{
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+}
+
+header{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.menuCours{
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    font-size: 30px;
+    background: #7ab51b;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuCours li {
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+}
+
+.menuCours li:hover {
+    background-color: black;
+}
+header img {
+    display: block;
+    width: 400px;
+}
+
+.titleCours{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #7ab51b;
+    color: white;
+  }
+
+  .tabla{
+    margin:50px;
+  }
+  
+  .btnVolver{
+    margin-right: 40px;
+    margin-top: -40px;
+  }
+
+  .contentBtn{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: end;
+  }
+
+  .titleAlumnos{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -20px;
+  }
